@@ -59,7 +59,7 @@ a {
 .header_link {
     color: #000;
     font-family: Anonymous Pro;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -73,7 +73,7 @@ main {
   
 h2 {
     font-family: "Anonymous Pro";
-    font-size: 48px;
+    font-size: 2.5rem;
     color: #121723;
     font-style: normal;
     font-weight: 700;
@@ -136,7 +136,7 @@ h2 {
   
 h3 {
     font-family: "Anonymous Pro", sans-serif;
-    font-size: 26px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -146,7 +146,7 @@ h3 {
   
 p {
     font-family: "Anonymous Pro", sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -179,7 +179,7 @@ footer {
 .footer_link {
     color: #fff;
     font-family: Anonymous Pro;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -196,7 +196,7 @@ footer {
 .footer-container-bottom-text {
     color: #A1A6B4;
     font-family: Anonymous Pro;
-    font-size: 16px;
+    font-size: 1.15rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -228,7 +228,7 @@ footer {
 .title {
     color: #121723;
     font-family: Anonymous Pro;
-    font-size: 48px;
+    font-size: 2.9rem;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -239,7 +239,7 @@ footer {
 .subtitle {
     color: #121723;
     font-family: Anonymous Pro;
-    font-size: 36px;
+    font-size: 2.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -272,7 +272,7 @@ footer {
 #about {
     color: #121723;
     font-family: Anonymous Pro;
-    font-size: 30px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -281,7 +281,10 @@ footer {
 .parameter {
     display: flex;
     justify-content: space-between;
-    font-size: 30px;
+}
+
+.parameter > p {
+    font-size: 1.1rem;
 }
   
 .about-container {
@@ -303,7 +306,7 @@ footer {
     }
   
     h2 {
-      font-size: 32px;
+      font-size: 1.9rem;
       padding-left: 24px;
     }
   
@@ -321,19 +324,19 @@ footer {
     }
   
     .title {
-      font-size: 32px;
+      font-size: 2.4rem;
     }
   
     .subtitle {
-      font-size: 20px;
+      font-size: 1.7rem;
     }
   
-    .sneaker-details-description,
-    .parameters {
-      font-size: 16px;
+    .sneaker-details-description > p,
+    .parameter > p {
+      font-size: 0.93rem !important;
     }
   
     #about {
-      font-size: 24px;
+      font-size: 1.5rem;
     }
 }
